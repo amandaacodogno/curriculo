@@ -1,0 +1,125 @@
+.formacao{
+    background: #141414;
+    color: #ffffff;
+}
+
+.formacao-container{
+    max-width: 1200px;
+    padding: 120px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    position: relative;
+}
+
+.formacao .subtitulo{
+    color: #000000;
+    max-width: 5ch;
+}
+
+.formacao-texto{
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 47ch;
+    margin-bottom: 60px;
+    color: #6B6B6B;
+}
+
+.Estudo-Lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.Estudo{
+    flex: 1;
+    background: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Estudo-Tipo{
+    font-size: .875rem;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    margin-bottom: 10px;
+}
+
+.Estudo-Curso{
+    flex: 1;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.Estudo-Curso::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: #000000;
+    position: absolute;
+    top: 5px;
+    left: -24px;
+}
+
+.Estudo-Instituicao{
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: #a3a3a3;
+}
+
+.Cursos{
+    margin-bottom: 60px;
+}
+
+.Formacao-extra h3{
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.Formacao-extra h3::before{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: -5px;
+    left: -30;
+}
+
+.Cursos h3::before{
+    background: url("../img/livro.svg") no-repeat center;
+}
+
+.Idiomas h3::before{
+    background: url("../img/idiomas.svg") no-repeat center;
+}
+
+.Formacao-extra li{
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.Formacao-extra span{
+    color: #8f8f8f;
+}
+
+.Cursos li{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
